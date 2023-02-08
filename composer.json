@@ -1,0 +1,33 @@
+{
+    "name": "proxeuse/whmcs-mattermost-notifications",
+    "description": "A free and open-source Mattermost notification provider for WHMCS. Has dynamic channel selection and is built to be easily installed and configured.",
+    "version": "v1.0.0",
+    "homepage": "https://www.proxeuse.com/software/whmcs/mattermost-notifications",
+    "readme": "README.md",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Roel Reijneveld",
+            "email": "roelreijneveld@proxeuse.com",
+            "homepage": "https://roelreijneveld.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "development@proxeuse.com",
+        "issues": "https://github.com/Proxeuse/WHMCS-Mattermost-Notifications/issues",
+        "source": "https://github.com/Proxeuse/WHMCS-Mattermost-Notifications",
+        "docs": "https://help.proxeuse.com",
+        "chat": "https://www.proxeuse.com"
+    },
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://www.proxeuse.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "php": ">=8.1.0"
+    }
+}
